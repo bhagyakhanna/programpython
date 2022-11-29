@@ -1,0 +1,34 @@
+#program to check student is pass or fail
+sno=int(input("enter sno:"))
+sname=input("enter student name:")
+group=input("enter group name:")
+s1=int(input("enter english marks:"))
+s2=int(input("enter maths marks:"))
+s3=int(input("enter science marks:"))
+total=s1+s2+s3
+avg=total/3
+print("sno",sno)
+print("sname",sname)
+print("Group",group)
+print("Total",total)
+if avg>=90:
+  print("first class")
+elif avg>=70:
+  print("second class")
+elif avg>=40:
+  print("third class")
+else:
+  print("fail")
+  
+output:
+enter sno:2151
+enter student name:bhagya
+enter group name:bca
+enter english marks:90
+enter maths marks:89
+enter science marks:85
+sno 2151
+sname bhagya
+Group bca
+Total 264
+second class
